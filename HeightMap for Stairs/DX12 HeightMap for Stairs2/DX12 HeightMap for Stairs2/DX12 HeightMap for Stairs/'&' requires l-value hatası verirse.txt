@@ -1,0 +1,6 @@
+'&' requires l-value hatasının çözümü için 
+şu sitede 
+(https://stackoverflow.com/questions/65444256/error-c2102-requires-l-value-vs2019-how-to-fix)
+şöyle yazıyor :
+
+You can work around this issue for now by disabling /permissive- by changing "Conformance Mode" to "No" in the "C/C++ -> Language" project settings.
