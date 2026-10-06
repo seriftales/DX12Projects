@@ -31,7 +31,7 @@ Oyun motorlarında karakterlerin engebeli arazilerde veya merdivenlerde yürüme
 * **$O(1)$ Çalışma Zamanı Karmaşıklığı:** Oyun esnasında saniyede 60 kere ağır donanımsal ışın testleri yapmak yerine, kameranın gerçek dünya (X, Z) koordinatları matematiksel olarak matris indeksine dönüştürülmüş ve ilgili Y (yükseklik) değeri doğrudan bellekten sabit zamanlı $O(1)$ olarak okunmuştur.
 * **Güvenli Dizi Erişimi:** Karakterin dünya sınırlarının dışına çıkarak C++ "Out of Bounds" bellek hatalarına sebep olmasını önlemek adına, matris indeks hesaplamaları bellek adresleme aşamasında katı bir şekilde sınırlandırılmıştır.
 
-## Derleme ve Çalıştırma (Build Instructions)
+##⚙️ Derleme ve Çalıştırma (Build Instructions)
 
 Bu depo Visual Studio 2022 çözüm mimarisine (`.sln`) uygun olarak yapılandırılmıştır.
 
