@@ -2,9 +2,9 @@
 
 Bu depo, DirectX 12 API'si kullanılarak C++ ile geliştirilmiş; **Çarpışma Fiziği (Collision Detection)**, **Prosedürel Geometri (Procedural Generation)** ve **Veri/Bellek Optimizasyonu** konularını ele alan üç farklı projeyi tek bir Monorepo altında toplamaktadır.
 
-> **⚠️ Akademik Şablon ve Katkı Beyanı (Disclaimer)**
+> **Akademik Şablon ve Katkı Beyanı**
 > Bu projeler, bilgisayar grafikleri dersi kapsamında sağlanan temel Direct3D 12 mimari şablonu üzerine inşa edilmiştir. Bu şablon; pencere oluşturma, temel device başlatma ve komut kuyruğutahsisleri gibi standart altyapı işlemlerini üstlenmektedir. 
-> ** Mimari Katkılarım:** Kesişim algoritmalarının matematiksel tasarımı, prosedürel mesh üretim mantığı, bellek optimizasyonları , PSO durum değişimleri ve çalışma zamanı ) güvenlik önlemlerinin tamamı tarafımca C++ standartlarına uygun olarak sisteme entegre edilmiştir.
+> **Mimari Katkılarım:** Kesişim algoritmalarının matematiksel tasarımı, prosedürel mesh üretim mantığı, bellek optimizasyonları , PSO durum değişimleri ve çalışma zamanı ) güvenlik önlemlerinin tamamı tarafımca C++ standartlarına uygun olarak sisteme entegre edilmiştir.
 
 ## Proje 1: 3D Box-to-Box Intersection 
 
@@ -31,7 +31,7 @@ Oyun motorlarında karakterlerin engebeli arazilerde veya merdivenlerde yürüme
 * **$O(1)$ Çalışma Zamanı Karmaşıklığı:** Oyun esnasında saniyede 60 kere ağır donanımsal ışın testleri yapmak yerine, kameranın gerçek dünya (X, Z) koordinatları matematiksel olarak matris indeksine dönüştürülmüş ve ilgili Y (yükseklik) değeri doğrudan bellekten sabit zamanlı $O(1)$ olarak okunmuştur.
 * **Güvenli Dizi Erişimi:** Karakterin dünya sınırlarının dışına çıkarak C++ "Out of Bounds" bellek hatalarına sebep olmasını önlemek adına, matris indeks hesaplamaları bellek adresleme aşamasında katı bir şekilde sınırlandırılmıştır.
 
-## ⚙️ Derleme ve Çalıştırma (Build Instructions)
+##  Derleme ve Çalıştırma
 
 Bu depo Visual Studio 2022 çözüm mimarisine (`.sln`) uygun olarak yapılandırılmıştır.
 
